@@ -1,0 +1,8 @@
+# Scripts run on Linux VMs — keep LF even when the repo is edited on Windows,
+# otherwise a CRLF shebang becomes "#!/bin/bash\r" and fails with "bad interpreter".
+*.sh      text eol=lf
+Makefile  text eol=lf
+*.java    text eol=lf
+*.py      text eol=lf
+*.jar     binary
+*.png     binary

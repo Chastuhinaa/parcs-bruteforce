@@ -1,0 +1,6 @@
+algo=SHA-256
+charset=abcdefghijklmnopqrstuvwxyz0123456789
+length=5
+password=99999
+workers=1 2 4 8
+repeats=3

@@ -1,0 +1,8 @@
+build/
+out/*.log
+out/*.pid
+out/*.out
+out/BruteForce.jar
+out/HashCrack.jar
+out/results.csv
+__pycache__/
